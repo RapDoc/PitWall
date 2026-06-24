@@ -13,7 +13,7 @@ import os
 
 load_dotenv()
 
-MODEL_PATH = r"C:\Users\Sahaj Kapoor\Downloads\Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf"
+MODEL_PATH = os.getenv("MODEL_PATH")
 ALL_DRY_COMPOUNDS = {"SOFT", "MEDIUM", "HARD"}
 
 
